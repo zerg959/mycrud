@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
-// use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 
 class UsersController extends Controller
@@ -20,36 +19,6 @@ class UsersController extends Controller
 
         return view('users.index', compact('users'));
     }
-
-    /**
-     * Show form for creating user
-     * 
-     * @return \Illuminate\Http\Response
-     */
-    public function create() 
-    {
-        return view('users.create');
-    }
-
-    // /**
-    //  * Store a newly created user
-    //  * 
-    //  * @param User $user
-    //  * @param StoreUserRequest $request
-    //  * 
-    //  * @return \Illuminate\Http\Response
-    //  */
-    // public function store(User $user, StoreUserRequest $request) 
-    // {
-    //     //For demo purposes only. When creating user or inviting a user
-    //     // you should create a generated random password and email it to the user
-    //     $user->create(array_merge($request->validated(), [
-    //         'password' => 'test' 
-    //     ]));
-
-    //     return redirect()->route('users.index')
-    //         ->withSuccess(__('User created successfully.'));
-    // }
 
     /**
      * Show user data

@@ -25,16 +25,14 @@
         @endguest
         @auth
         <li><a href="{{ route('users.index') }}" class="nav-link px-2 text-white">Users</a></li>
-        {{auth()->user()->name}}&nbsp;
         <div class="text-end">
           <a href="{{ route('logout.perform') }}" class="btn btn-outline-light me-2">Logout</a>
-        </div>
+        </div> 
+        <li class="nav-link px-2 text-white">
+        You logged in as: {{auth()->user()->username}}&nbsp;
+        </li>
         @endauth
       </ul>
-
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-        <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-      </form>
     </div>
   </div>
 </header>

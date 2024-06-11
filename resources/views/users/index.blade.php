@@ -3,11 +3,7 @@
 @section('content')
     <div class="bg-light p-4 rounded">
         <h1>Users</h1>
-        <div class="lead">
-            Manage your users here.
-            <a href="{{ route('users.create') }}" class="btn btn-primary btn-sm float-right">Add new user</a>
-        </div>
-        
+       
         <div class="mt-2">
             @include('layouts.partials.messages')
         </div>

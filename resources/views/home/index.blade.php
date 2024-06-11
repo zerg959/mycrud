@@ -1,6 +1,17 @@
 @extends('layouts.app-master')
 
 @section('content')
+        <h1>Homepage</h1>
+        @guest
+        <p class="lead">Your viewing the home page. Please login to view the restricted data.</p>
+        @endguest
+        @foreach($users as $user)
+        <p>The list of Users:</p>
+                        {{ $user->username }}   
+                        @auth   
+                        <a href="{{ route('users.show', $user->id) }}" class="btn btn-warning">To user page</a>
+                        @endauth              
+        @endforeach
     <div class="bg-light p-5 rounded">
         @auth
         <h1>{{ Auth::user()->username }}'s Dashboard</h1>
@@ -11,15 +22,14 @@
             <li class="lead">Email: {{ Auth::user()->email }}</li>
         </ul>
         <div>
-            <a href="#" class="btn btn-warning">Edit User</a>
-            <a href="#" class="btn btn-danger">Delete User</a>    
+            <a href="{{ route('users.edit', Auth::user()->id) }}" class="btn btn-warning">Edit My profile</a>
+            {!! Form::open(['method' => 'DELETE','route' => ['users.destroy', Auth::user()->id],'style'=>'display:inline']) !!}
+            {!! Form::submit('Delete My Profile', ['class' => 'btn btn-danger']) !!}
+            {!! Form::close() !!}  
         </div>
         @endauth
 
-        @guest
-        <h1>Homepage</h1>
-        <p class="lead">Your viewing the home page. Please login to view the restricted data.</p>
-        @endguest
+
     </div>
     <hr>
     <div>
