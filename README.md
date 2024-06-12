@@ -14,8 +14,8 @@ Used:
 - Bootstrap
 - Yandex.Cloud
 
-Below are some links i used to find info:
 
+Below are some links i used to find info:
 # Structure
 https://getcomposer.org/download/
 https://sourceforge.net/projects/xampp/
