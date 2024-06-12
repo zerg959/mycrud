@@ -1,3 +1,5 @@
+https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+
 - Project deployed in yandex.cloud on http://84.201.142.17/
 
 Test project on Laravel realize CRUD-User model.
