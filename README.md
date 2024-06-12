@@ -19,6 +19,8 @@ Below are some links i used to find info:
 # Structure
 https://getcomposer.org/download/
 https://sourceforge.net/projects/xampp/
+# Migrations of extra fields
+https://crazytechspirit.wordpress.com/2017/12/02/laravel-adding-custom-field-by-creating-new-migration-with-column-fields/
 
 # DatetimePicker
 https://itchief.ru/bootstrap/datetimepicker
