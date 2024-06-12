@@ -1,4 +1,4 @@
-- Project deployed on yandex.cloud on http://84.201.142.17/
+- Project deployed in yandex.cloud on http://84.201.142.17/
 
 Test project on Laravel realize CRUD-User model.
 - Auth user can edit, delete and register profile.
