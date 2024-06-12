@@ -1,10 +1,22 @@
+- Project depoyed on yandex.cloud on adrres http://84.201.142.17/
+
+Test project on Laravel realize CRUD-User model.
+- Auth user can edit, delete and register profile.
+- Also Auth user can modify all other profiles: it mean? that every user is SU (this functionality need to rewrite: need to add ROLES (admin-user)
+- Unauth user can SignUp or see main page with the list of users.
+
+
+Used:
+- laravel8
+- PHP8
+- Nginx
+- Blade
+- Bootstrap
+
+Below are some links i used to find info:
 
 # Structure
-https://github.com/codeanddeploy/laravel-8-crud-example-with-authentication
-https://codeanddeploy.com/blog/laravel/
-laravel-8-crud-operation-tutorial-and-example-for-beginners#5PfG9sAeFrSfUACMkcDx0QAIt
 
-https://codeanddeploy.com/blog/laravel/laravel-8-user-roles-and-permissions-step-by-step-tutorial
 
 https://getcomposer.org/download/
 
