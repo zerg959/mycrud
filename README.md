@@ -8,7 +8,7 @@
 
 Test project on Laravel realize CRUD-User model.
 - Auth user can edit, delete and register profile.
-- Also Auth user can modify all other profiles: it means that every user is SU (this functionality need to rewrite: need to add ROLES (admin-user))
+- Also Auth user can modify all other profiles: it means that every user is SU (this functionality needed to rewrite: need to add ROLES (admin-user))
 - Unauth user can SignUp or see main page with the list of users.
 
 
