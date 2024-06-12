@@ -40,7 +40,7 @@ https://serverspace.ru/support/help/how-to-deploy-laravel-app-at-ubuntu
 https://ilavista.by/blog/razvertyvanie-laravel-proekta-na-servere-ubuntu-2004#server-pre-configuration
 
 # remove ip from hosts
-ssh-keygen -f "/home/zerg959/.ssh/known_hosts" -R "84.201.142.17"
+ssh-keygen -f "/home/<user>/.ssh/known_hosts" -R "xx.xxx.xxx.xx"
 
 # field types of laravel
 https://laravel.ru/docs/v4/schema
