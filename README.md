@@ -35,6 +35,9 @@ https://itchief.ru/bootstrap/datetimepicker
 https://stackoverflow.com/questions/24850136/composer-error-php-extension-fileinfo-is-missing-from-your-system
 https://qna.habr.com/q/531707
 https://sebhastian.com/npm-err-code-etarget/
+# Vite manifest
+Vite manifest not found at
+https://stackoverflow.com/questions/73045616/vite-manifest-not-found
 
 # Deploy
 https://serverspace.ru/support/help/how-to-deploy-laravel-app-at-ubuntu
