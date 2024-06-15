@@ -34,6 +34,7 @@ https://itchief.ru/bootstrap/datetimepicker
 # Problems
 https://stackoverflow.com/questions/24850136/composer-error-php-extension-fileinfo-is-missing-from-your-system
 https://qna.habr.com/q/531707
+https://sebhastian.com/npm-err-code-etarget/
 
 # Deploy
 https://serverspace.ru/support/help/how-to-deploy-laravel-app-at-ubuntu
