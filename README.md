@@ -4,8 +4,6 @@
 ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-- Project deployed in yandex.cloud on http://84.201.142.17/
-
 Test project on Laravel realize CRUD-User model.
 - Auth user can edit, delete and register profile.
 - Also Auth user can modify all other profiles: it means that every user is SU (this functionality needed to rewrite: need to add ROLES (admin-user))
